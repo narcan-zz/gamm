@@ -1,15 +1,14 @@
-# GA Management Magic
-A Google Sheets add-on to enable bulk management of Google Analytics configurations
+The [Google Analytics Management API](https://developers.google.com/analytics/devguides/config/mgmt/v3/) can be accessed through a Google Sheet to list and update settings data contained within that sheet. The GA Management Magic Sheets add-on provides a seemless extension that users of Google Analytics with multiple accounts, properties, or views to manage (such as Enterprise users) can employ to:
+- list entities from Google Analytics into a sheet
+- make updates and additions to those entities in a familiar and convenient environment
+- update items from the sheet up to Google Analytics
 
----------
-The Google Analytics Management API can be accessed through a Google Sheet to list and update settings data in a Google Sheet. This Sheets add-on provides a seemless extension that enterprise users of Google Analytics can employ to list entities from Google Analytics into a sheet, make updates and additions to those entities and push updated items from the sheet up to GA.
-
-It works with free as well as GA 360 properties.
+The add-on works with free Google Analytics users, as well as GA360 users.
 
 ### Installing the tool
 This tool can most easily be installed through the [Google Add-ons Web Store](https://chrome.google.com/webstore/detail/clmbnkmolchgmhnkbcjbadnnhekdigdo/).
 
-If you wish to extend the functionality, it can also be installed by placing all the Apps Script files in this repository into [a script bound to a Google Sheet](https://developers.google.com/apps-script/guides/bound), which will use your own Cloud Project (and may require you to configure a cloud project).
+If you wish to extend the functionality, it can also be installed by placing the Apps Script files in this repository into [a script bound to a Google Sheet](https://developers.google.com/apps-script/guides/bound), which will use your own Cloud Project (and may therefore require you to configure a cloud project).
 
 ## Working with Filters, Custom Dimensions & Custom Metrics in Google Sheets
 #### Listing
@@ -26,7 +25,7 @@ If there is no data in the sheet, or the sheet format is not recognized by the s
 
 ---
 
-Some of you have written about errors related to quota limits. This is a known issue related to the Google Analytics Management API daily quota and is being worked on.
+Some folks have written about errors related to quota limits. This is a known issue related to the Google Analytics Management API daily quota and is being worked on.
 
 In the meantime, you can work around it by following the instructions below, which will use your own cloud project (and won't be sharing the quota with others). This should eliminate the issue for most users, though it should be noted that the API quotas still apply.
 
