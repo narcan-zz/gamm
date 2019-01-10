@@ -1,4 +1,4 @@
-The [Google Analytics Management API](https://developers.google.com/analytics/devguides/config/mgmt/v3/) can be accessed through a Google Sheet to list and update settings data contained within that sheet. The GA Management Magic Sheets add-on provides a seemless extension that users of Google Analytics with multiple accounts, properties, or views to manage (such as Enterprise users) can employ to:
+The [Google Analytics Management API](https://developers.google.com/analytics/devguides/config/mgmt/v3/) can be accessed through a Google Sheet to list and update settings data contained within that sheet. The __GA Management Magic__ Sheets add-on provides a seemless extension that users of Google Analytics with multiple accounts, properties, or views to manage (such as Enterprise users) can employ to:
 - list entities from Google Analytics into a sheet
 - make updates and additions to those entities in a familiar and convenient environment
 - update items from the sheet up to Google Analytics
